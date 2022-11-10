@@ -176,7 +176,7 @@ section#projects {
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
-  animation: float 5s ease-in-out infinite;
+  animation: float 1000s ease-in-out infinite;
   box-shadow: 0 10px 10px;
 }
 
