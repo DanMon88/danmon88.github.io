@@ -195,7 +195,7 @@ section#form {
 
 /* MOBILE */
 
-@media (max-width: 450px) {
+@media (max-width: 800px) {
   header {
     justify-content: center;
   }
@@ -219,11 +219,11 @@ section#form {
     gap: 30px;
   }
 
-  .project-img {
+  .form-img {
     width: 100%;
   }
  
-  .project-info {
+  .form-info {
     width: 80%;
   }
 }
