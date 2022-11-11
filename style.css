@@ -169,15 +169,16 @@ section#form {
   position: fixed;
   width: 60px;
   height: 60px;
-  bottom: 40px;
+  top: 100px;
   right: 40px;
   background-color: white;
   color: black;
   border-radius: 50px;
   text-align: center;
-  font-size: 30px;
-  animation: float 5s ease-in-out infinite;
-  box-shadow: 0 10px 10px;
+  font-size: 35px;
+  animation: float 0.5s ease-in-out infinite;
+  box-shadow: 0 7px 3px;
+  z-index: 1000;
 }
 
 .fa-whatsapp {
@@ -189,13 +190,13 @@ section#form {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-30px);
+    transform: translateY(10px);
   }
 }
 
 /* MOBILE */
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   header {
     justify-content: center;
   }
@@ -210,6 +211,7 @@ section#form {
   }
 
   .home-info, .home-img {
+    text-align: center;
     width: 100%;
     padding: 10px;
   }
@@ -218,12 +220,22 @@ section#form {
     flex-direction: column;
     gap: 30px;
   }
-
+  
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+  
   .form-img {
     width: 50%;
   }
  
   .form-info {
+    text-align: center;
     width: 80%;
+  }
+  
+  .ocult-cel {
+    display: none;
   }
 }
