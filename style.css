@@ -215,7 +215,7 @@ section#form {
   }
 
   .swiper-slide {
-    flex-direction: column-reverse;
+    flex-direction: column;
     gap: 30px;
   }
 
