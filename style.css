@@ -221,11 +221,6 @@ section#form {
     gap: 30px;
   }
   
-  .swiper-button-next,
-  .swiper-button-prev {
-    display: none;
-  }
-  
   .form-img {
     width: 50%;
   }
