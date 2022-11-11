@@ -192,38 +192,3 @@ section#form {
     transform: translateY(-30px);
   }
 }
-
-/* MOBILE */
-
-@media (max-width: 450px) {
-  header {
-    justify-content: center;
-  }
-  
-  .logo {
-    display: none;
-  }
-
-  section#home {
-    flex-direction: column-reverse;
-    justify-content: center;
-  }
-
-  .home-info, .home-img {
-    width: 100%;
-    padding: 10px;
-  }
-
-  .swiper-slide {
-    flex-direction: column-reverse;
-    gap: 30px;
-  }
-
-  .project-img {
-    width: 100%;
-  }
- 
-  .project-info {
-    width: 80%;
-  }
-}
